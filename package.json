@@ -1,12 +1,7 @@
 {
-  "name": "cafe-management-web-app",
+  "name": "Cafe Management Web App",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.8",
     "@radix-ui/react-accordion": "^1.2.3",
@@ -35,35 +30,36 @@
     "@radix-ui/react-toggle": "^1.1.2",
     "@radix-ui/react-toggle-group": "^1.1.2",
     "@radix-ui/react-tooltip": "^1.1.8",
+    "@vitejs/plugin-react": "*",
     "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.0",
+    "clsx": "*",
     "cmdk": "^1.1.1",
     "embla-carousel-react": "^8.6.0",
-    "hono": "^4.4.13",
+    "hono": "*",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.487.0",
-    "motion": "^11.17.0",
+    "motion": "*",
     "next-themes": "^0.4.6",
+    "path": "*",
     "react": "^18.3.1",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.55.0",
     "react-resizable-panels": "^2.1.7",
-    "react-router-dom": "^6.28.0",
+    "react-router-dom": "*",
     "recharts": "^2.15.2",
     "sonner": "^2.0.3",
-    "tailwind-merge": "^2.3.0",
-    "vaul": "^1.1.2"
+    "tailwind-merge": "*",
+    "vaul": "^1.1.2",
+    "vite": "*"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
-    "@types/react": "^18.2.22",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.15",
-    "typescript": "^5.6.3",
-    "vite": "^5.4.10"
+    "@vitejs/plugin-react-swc": "^3.10.2",
+    "vite": "6.3.5"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
   }
 }
